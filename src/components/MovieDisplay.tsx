@@ -15,11 +15,9 @@ interface MovieDisplayProps {
         </div>
       ));
 
-    const loader = <h1>Loading...</h1>;
-
     return (
       <div>
-        {displayedMovies ? displayedMovies : loader}
+        {displayedMovies}
       </div>
     );
   }

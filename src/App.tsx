@@ -3,6 +3,7 @@ import { IMovie } from "./models/IMovie";
 import { getMovies } from "./services/getMovies";
 import SearchInput from "./components/SearchInput";
 import MovieDisplay from "./components/MovieDisplay";
+import "./App.css";
 
 export default function App() {
   const [query, setQuery] = useState("");
