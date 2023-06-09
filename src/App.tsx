@@ -19,7 +19,7 @@ export default function App() {
   }
 
   return (
-    <main className="flex justify-center flex-col">
+    <main className="flex justify-center flex-col bg-yellow-50">
       <SearchInput onChange={handleChange} onSearch={search} />
       <MovieDisplay movies={foundMovies} />
     </main>
